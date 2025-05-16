@@ -47,8 +47,9 @@ Este repositorio contiene el backend del sistema **PetCare Shop**, diseñado par
 - `/middleware`: Verificación de JWT, roles
 - `/config`: Conexión a la base de datos y variables de entorno
 
-## ▶️ Cómo correr el servidor
+## 📦 Instalación de dependencias
 
 ```bash
-npm install
-npm start
+
+npm install express sequelize mysql2 jsonwebtoken bcryptjs cors
+node server.js
